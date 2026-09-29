@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 编辑器
+.idea/
+.vscode/
+
+# 模型权重
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# 数据与结果(体积大/含中间产物)
+datasets/
+data/
+results/
+results_*/
+semi_results/
+semi_splits/
+*_visualize_test/
+MosMedDataPlus/
+MoNuSeg/
+Covid19/
+QsTa-COV19/
+logs/
+*.log
+*.csv
+*.xlsx
+# 但保留半监督所需的对比标签资源
+!LV_loss/LV_loss.xlsx
+
+# 其他
+.DS_Store
+Thumbs.db
+*.tar
+*.tar.gz
